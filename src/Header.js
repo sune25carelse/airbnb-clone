@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import SearchIcon from '@material-ui/icons/Search';
 
 function Header() {
   return (
@@ -9,6 +10,11 @@ function Header() {
         src="https://mybroadband.co.za/news/wp-content/uploads/2015/07/Airbnb-logo.jpg"
         alt=""
       />
+
+      <div className="header__center">
+        <input type="text"/>
+        <SearchIcon />
+      </div>
     </div>
   );
 }
