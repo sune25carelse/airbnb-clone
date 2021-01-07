@@ -1,14 +1,16 @@
 import React from 'react';
 import Banner from './Banner';
 import Card from './Card';
+import './Home.css';
 
 function Home() {
   return (
     <div className="home">
       <Banner />
+
       <div className="home__section">
         <Card 
-          src="https://i.pinimg.com/originals/e3/b0/6d/e3b06d0f36ca7cdf0606467fafcadf38.jpg"
+          src="https://ssl.cdn-redfin.com/photo/263/mbpaddedwide/225/genMid.838225_1.jpg"
           title="Khoinonia Guesthouse"
           description="The apartment is self catering with luxurious 2 bedroom accommodation. Enjoy the beautifully decorated apartment located right next to the beach."
         />
@@ -24,9 +26,24 @@ function Home() {
         />
       </div>
       <div className="home__section">
-        <Card />
-        <Card />
-        <Card />
+        <Card 
+          src="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
+          title="Diamond City Villas"
+          description="Sommer Lekker Hier"
+          price="R900/night"
+        />
+        <Card 
+          src="https://media.nomadicmatt.com/2018/apartment.jpg"
+          title="Port Nolloth Mansions"
+          description="Solid in Port Jollie"
+          price="R2500/night"
+        />
+        <Card 
+          src="https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg"
+          title="Namakwa Daisy Mansions"
+          description="Die Poort"
+          price="R1800/night"
+        />
       </div>
     </div>
   );
