@@ -20,7 +20,33 @@ function SearchPage() {
             <Button
             variant="outlined">More filters</Button>
         </div>
-        <SearchResult />
+        <SearchResult 
+          img="https://media.nomadicmatt.com/2019/airbnb_breakup3.jpg"
+          location="Private room in Port Nolloth Diamond City"
+          title="5 Star Luxury Villa"
+          description="2 guest 1 bedroom 1 bed Wifi Kitchen Free Parking"
+          star={3.85}
+          price="R90 / night"
+          total="R1800 total"
+        />
+        <SearchResult 
+          img="https://media.nomadicmatt.com/2018/apartment.jpg"
+          location="Beautifull Beach House"
+          title="30min to Mc Dougalls Bay"
+          description="3 guest 3 bedroom 3 bed Wifi Kitchen Free Parking"
+          star={5.00}
+          price="R120 / night"
+          total="R2300 total"
+        />
+        <SearchResult 
+          img="https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg"
+          location="Great room in Scotia Inn Hotel"
+          title="5 Star Apartments"
+          description="5 guest 3 bedroom 4 bed Wifi Kitchen Free Parking"
+          star={4.25}
+          price="R200 / night"
+          total="R5000 total"
+        />
     </div>
   );
 }
